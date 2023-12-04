@@ -1,0 +1,54 @@
+body {
+  height: 770px;
+}
+
+* {
+  padding: 0;
+}
+
+.logo {
+  height: 5%;
+  width: 100%;
+  background-color: rgba(164, 163, 163, 0.4);
+  margin-bottom: 1%;
+  font-weight: bold;
+  padding-top: 0.8%;
+  font-size: x-large;
+}
+
+.flexitem {
+  height: 60%;
+  width: 100%;
+  margin-bottom: 1%;
+  /* background-color: rgba(164, 163, 163, 0.4); */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.head,
+.area {
+  width: 70%;
+  background-color: rgba(164, 163, 163, 0.4);
+  margin-bottom: 1%;
+
+  margin-bottom: 1%;
+}
+.h {
+  width: 30%;
+}
+/* .area {
+    width: 70%;
+    background-color: rgba(164, 163, 163, 0.4);
+    margin-bottom: 1%;
+    align-items: flex-end;
+  } */
+
+.foot {
+  height: 4%;
+  width: 100%;
+  background-color: rgba(164, 163, 163, 0.4);
+  text-align: center;
+  font-size: large;
+}
